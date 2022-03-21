@@ -30,3 +30,9 @@ export const deleteEntry = (state, id) => {
     state.entries.splice(idx, 1)
 
 }
+
+export const clearEntries = (state) => {
+
+    state.entries = []
+
+}
